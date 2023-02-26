@@ -1,0 +1,8 @@
+SELECT b.NAME, SUM(ri.TOTAL_FINAL_PRICE) as total_spent
+FROM receipts r
+JOIN receipt_items ri ON r.ID = ri.REWARDS_RECEIPT_ID
+JOIN brands b ON b.BARCODE = ri.BARCODE AND b.BRAND_CODE = ri.BRAND_CODE
+WHERE MONTH(r.PURCHASE_DATE) = 6
+GROUP BY b.NAME
+ORDER BY total_spent DESC
+LIMIT 1;
