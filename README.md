@@ -1,32 +1,21 @@
-# Fetch-Data-Analytics-Internship
 ## File description
 I use DataGrip on my computer to help me develop. And import the .csv data provided to the local database. Among them, two data in the Receipt_items.csv will cause import errors due to a single quotation number and need to be repaired before import.
 ### Query1 -5.sql
 The answer to solution to the query question mentioned in the Google Doc file
 1. Which Brand Saw the Most Dollars Spent in the Month of June?
-
-  Brand: Brooks®
-  
+	 Brand: Brooks®
 2. Which User Spent the MOST MONEY in the Month of August?
-
-  UserID: 609ab37f7a2e8f2f95ae968f
-  Spent: 157739.13999999998
-  
+	UserID: 609ab37f7a2e8f2f95ae968f
+	Spent: 157739.13999999998
 3. What user bought the most extensive item?
-
-  UserID: 617376b8a9619d488190e0b6
-  Item Description: Starbucks Iced Coffee Premium Coffee Beverage Unsweetened Blonde Roast Bottle 48 Oz 1 Ct
-  Price: 31005.99
-  
+	UserID: 617376b8a9619d488190e0b6
+	Item Description: Starbucks Iced Coffee Premium Coffee Beverage Unsweetened Blonde Roast Bottle 48 Oz 1 Ct
+	Price: 31005.99
 4. What is the name of the most extensive item purchaset?
-
-  Item: Starbucks Iced Coffee Premium Coffee Beverage Unsweetened Blonde Roast Bottle 48 Oz 1 Ct
-  Price: 31005.99
-  
+	Item: Starbucks Iced Coffee Premium Coffee Beverage Unsweetened Blonde Roast Bottle 48 Oz 1 Ct
+	Price: 31005.99
 5. How many users scanned in each month?
-
-  See Result_5.csv
-  
+	See Result_5.csv
 ### Result .csv
 Export the answer of **Query1-5.sql** to CSV format and save, including Column Header, and data separation from a comma
 ### Create .sql
