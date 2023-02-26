@@ -1,0 +1,2 @@
+68606:96: actual: "s strawberry shake", expected: value separator (,)
+112071:116: actual: "s sprite 20 oz", expected: value separator (,)
